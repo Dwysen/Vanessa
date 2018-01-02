@@ -1,0 +1,15 @@
+PODS:
+  - CollectionKit (1.2.1)
+  - YetAnotherAnimationLibrary (1.1.0)
+
+DEPENDENCIES:
+  - CollectionKit (~> 1.2.1)
+  - YetAnotherAnimationLibrary
+
+SPEC CHECKSUMS:
+  CollectionKit: 529f21630888b51dfad3e1aa7a2d08e8c28099cb
+  YetAnotherAnimationLibrary: e499e262c031c6b1f05809cd9f5e2eeb5282f5a5
+
+PODFILE CHECKSUM: 01f72fdfbbb365cfc6a9c2fcd9562fc3fe05bf09
+
+COCOAPODS: 1.3.1
