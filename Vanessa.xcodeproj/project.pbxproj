@@ -13,6 +13,8 @@
 		52046FEA1FFB0FAA00B172E2 /* EdgeShrinkPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52046FE71FFB0FAA00B172E2 /* EdgeShrinkPresenter.swift */; };
 		52046FEB1FFB0FAA00B172E2 /* WobblePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52046FE81FFB0FAA00B172E2 /* WobblePresenter.swift */; };
 		52046FEC1FFB0FAA00B172E2 /* ZoomPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52046FE91FFB0FAA00B172E2 /* ZoomPresenter.swift */; };
+		52289D951FFC7C6300D65197 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52289D941FFC7C6300D65197 /* Extension.swift */; };
+		5286CA2A20084E3800C92ABB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5286CA2920084E3800C92ABB /* CardView.swift */; };
 		52D8CDE01FF63F6100E7261A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8CDDF1FF63F6100E7261A /* AppDelegate.swift */; };
 		52D8CDE21FF63F6100E7261A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D8CDE11FF63F6100E7261A /* ViewController.swift */; };
 		52D8CDE51FF63F6100E7261A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D8CDE31FF63F6100E7261A /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 		52046FE71FFB0FAA00B172E2 /* EdgeShrinkPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeShrinkPresenter.swift; sourceTree = "<group>"; };
 		52046FE81FFB0FAA00B172E2 /* WobblePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WobblePresenter.swift; sourceTree = "<group>"; };
 		52046FE91FFB0FAA00B172E2 /* ZoomPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomPresenter.swift; sourceTree = "<group>"; };
+		52289D941FFC7C6300D65197 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		5286CA2920084E3800C92ABB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		52D8CDDC1FF63F6100E7261A /* Vanessa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vanessa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D8CDDF1FF63F6100E7261A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52D8CDE11FF63F6100E7261A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				52046FE21FFB0F6800B172E2 /* Common.swift */,
+				52289D941FFC7C6300D65197 /* Extension.swift */,
 				52046FE41FFB0F7B00B172E2 /* Util.swift */,
 			);
 			path = Tool;
@@ -78,6 +83,14 @@
 				52046FE91FFB0FAA00B172E2 /* ZoomPresenter.swift */,
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5286CA2B20085BA800C92ABB /* V */ = {
+			isa = PBXGroup;
+			children = (
+				5286CA2920084E3800C92ABB /* CardView.swift */,
+			);
+			path = V;
 			sourceTree = "<group>";
 		};
 		52D8CDD31FF63F6100E7261A = {
@@ -104,11 +117,12 @@
 		52D8CDDE1FF63F6100E7261A /* Vanessa */ = {
 			isa = PBXGroup;
 			children = (
+				5286CA2B20085BA800C92ABB /* V */,
 				52D8CDDF1FF63F6100E7261A /* AppDelegate.swift */,
 				52D8CDE11FF63F6100E7261A /* ViewController.swift */,
+				52D8CDE81FF63F6100E7261A /* LaunchScreen.storyboard */,
 				52D8CDE31FF63F6100E7261A /* Main.storyboard */,
 				52D8CDE61FF63F6100E7261A /* Assets.xcassets */,
-				52D8CDE81FF63F6100E7261A /* LaunchScreen.storyboard */,
 				52D8CDEB1FF63F6100E7261A /* Info.plist */,
 			);
 			path = Vanessa;
@@ -255,12 +269,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				52D8CDE21FF63F6100E7261A /* ViewController.swift in Sources */,
+				5286CA2A20084E3800C92ABB /* CardView.swift in Sources */,
 				52046FEB1FFB0FAA00B172E2 /* WobblePresenter.swift in Sources */,
 				52046FEA1FFB0FAA00B172E2 /* EdgeShrinkPresenter.swift in Sources */,
 				52046FEC1FFB0FAA00B172E2 /* ZoomPresenter.swift in Sources */,
 				52046FE31FFB0F6800B172E2 /* Common.swift in Sources */,
 				52D8CDE01FF63F6100E7261A /* AppDelegate.swift in Sources */,
 				52046FE51FFB0F7B00B172E2 /* Util.swift in Sources */,
+				52289D951FFC7C6300D65197 /* Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
